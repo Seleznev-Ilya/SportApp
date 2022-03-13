@@ -1,15 +1,7 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Agenda from "./components/Agenda";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        Learn React, my test
-      </header>
-    </div>
-  );
+  return <Agenda />;
 }
 
 export default App;
