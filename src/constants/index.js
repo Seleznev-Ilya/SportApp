@@ -37,6 +37,10 @@ export const exercises = [
         id: 6,
         title: "Отжимание на петлях",
       },
+      {
+        id: 7,
+        title: "Пуловер",
+      },
     ],
     node: null,
   },
@@ -59,6 +63,10 @@ export const exercises = [
           {
             id: 3,
             title: "Молотки",
+          },
+          {
+            id: 4,
+            title: "Подтягивания узким хватом",
           },
         ],
         node: null,
@@ -87,6 +95,10 @@ export const exercises = [
             id: 5,
             title: "Разгибания рук с гантелей из-за головы",
           },
+          {
+            id: 6,
+            title: "Брусья",
+          },
         ],
         node: null,
       },
@@ -96,9 +108,51 @@ export const exercises = [
     id: 3,
     title: "Спина",
     node: [
-      { id: 1, title: "Верх", exercise: [], node: null },
-      { id: 2, title: "Центр", exercise: [], node: null },
-      { id: 3, title: "Низ", exercise: [], node: null },
+      {
+        id: 1,
+        title: "Верх",
+        exercise: [
+          {
+            id: 1,
+            title: "Подтягивание широким хватом",
+          },
+          {
+            id: 2,
+            title: "Пуловер",
+          },
+        ],
+        node: null,
+      },
+      {
+        id: 2,
+        title: "Центр",
+        exercise: [
+          {
+            id: 1,
+            title: "Тяга грифа к животу",
+          },
+          {
+            id: 2,
+            title: "Подтягивания к груди",
+          },
+          {
+            id: 3,
+            title: "Тяга грифа с угла",
+          },
+        ],
+        node: null,
+      },
+      {
+        id: 3,
+        title: "Низ",
+        exercise: [
+          {
+            id: 1,
+            title: "Гиперэкстензия",
+          },
+        ],
+        node: null,
+      },
     ],
   },
   {
@@ -132,16 +186,15 @@ export const exercises = [
 
 export const agendaList = [
   {
-    weekday: "Monday",
+    weekday: "Tuesday",
     sets: [
-      { group: 2, set: [null, [1]] },
-      { group: 1, set: [[4, 6]] },
-    ],
-  },
-  {
-    weekday: "Sunday",
-    sets: [
-      { group: 2, set: [null, [1]] },
+      {
+        group: 2,
+        set: [
+          [1, 2, 3],
+          [4, 5],
+        ],
+      },
       { group: 1, set: [[4, 6]] },
     ],
   },
