@@ -7,12 +7,12 @@ export const days = [
   "Friday",
   "Saturday",
 ];
-export const restDay =  {
+export const restDay = {
   id: 1,
   title: "Отдых",
   exercise: [],
   node: null,
-}
+};
 
 export const exercises = [
   {
@@ -196,12 +196,12 @@ export const agendaList = [
     sets: [
       {
         group: 2,
-        set: [[1], [4,5]],
+        set: [[1], [4, 5]],
       },
       {
         group: 1,
-        set: [[3,4,5,6,7]],
-      }
+        set: [[3, 4, 5, 6, 7]],
+      },
     ],
   },
 ];
