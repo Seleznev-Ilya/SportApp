@@ -1,0 +1,20 @@
+@import url("../../Main.scss");
+.agenda {
+  margin: 10% auto 0;
+  min-width: 300px;
+  width: fit-content;
+  h1,
+  h2 {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 700;
+    font-size: 40px;
+    background-color: #666666;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(177, 174, 174, 0.5) 0px 3px 3px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}

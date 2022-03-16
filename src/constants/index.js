@@ -7,6 +7,12 @@ export const days = [
   "Friday",
   "Saturday",
 ];
+export const restDay =  {
+  id: 1,
+  title: "Отдых",
+  exercise: [],
+  node: null,
+}
 
 export const exercises = [
   {
@@ -15,31 +21,31 @@ export const exercises = [
     exercise: [
       {
         id: 1,
-        title: "Жим штанги лёжа",
+        title: "Жим штанги лёжа.",
       },
       {
         id: 2,
-        title: "Жим гантелей лёжа",
+        title: "Жим гантелей лёжа.",
       },
       {
         id: 3,
-        title: "Сведение рук накрест в кроссовере",
+        title: "Сведение рук накрест в кроссовере.",
       },
       {
         id: 4,
-        title: "Разведение гантелей на скамье",
+        title: "Разведение гантелей на скамье.",
       },
       {
         id: 5,
-        title: "Отжимание на брусьях",
+        title: "Отжимание на брусьях.",
       },
       {
         id: 6,
-        title: "Отжимание на петлях",
+        title: "Отжимание на петлях.",
       },
       {
         id: 7,
-        title: "Пуловер",
+        title: "Пуловер.",
       },
     ],
     node: null,
@@ -54,19 +60,19 @@ export const exercises = [
         exercise: [
           {
             id: 1,
-            title: "Подъемы гантелей стоя",
+            title: "Подъемы гантелей стоя.",
           },
           {
             id: 2,
-            title: "Подъемы гантелей сидя",
+            title: "Подъемы гантелей сидя.",
           },
           {
             id: 3,
-            title: "Молотки",
+            title: "Молотки.",
           },
           {
             id: 4,
-            title: "Подтягивания узким хватом",
+            title: "Подтягивания узким хватом.",
           },
         ],
         node: null,
@@ -77,27 +83,27 @@ export const exercises = [
         exercise: [
           {
             id: 1,
-            title: "Жим лежа узким хватом",
+            title: "Жим лежа узким хватом.",
           },
           {
             id: 2,
-            title: "Французский жим лежа",
+            title: "Французский жим лежа.",
           },
           {
             id: 3,
-            title: "Французский жим стоя",
+            title: "Французский жим стоя.",
           },
           {
             id: 4,
-            title: "Отжимания от пола с узкой постановкой рук",
+            title: "Отжимания от пола с узкой постановкой рук.",
           },
           {
             id: 5,
-            title: "Разгибания рук с гантелей из-за головы",
+            title: "Разгибания рук с гантелей из-за головы.",
           },
           {
             id: 6,
-            title: "Брусья",
+            title: "Брусья.",
           },
         ],
         node: null,
@@ -114,11 +120,11 @@ export const exercises = [
         exercise: [
           {
             id: 1,
-            title: "Подтягивание широким хватом",
+            title: "Подтягивание широким хватом.",
           },
           {
             id: 2,
-            title: "Пуловер",
+            title: "Пуловер.",
           },
         ],
         node: null,
@@ -129,15 +135,15 @@ export const exercises = [
         exercise: [
           {
             id: 1,
-            title: "Тяга грифа к животу",
+            title: "Тяга грифа к животу.",
           },
           {
             id: 2,
-            title: "Подтягивания к груди",
+            title: "Подтягивания к груди.",
           },
           {
             id: 3,
-            title: "Тяга грифа с угла",
+            title: "Тяга грифа с угла.",
           },
         ],
         node: null,
@@ -148,7 +154,7 @@ export const exercises = [
         exercise: [
           {
             id: 1,
-            title: "Гиперэкстензия",
+            title: "Гиперэкстензия.",
           },
         ],
         node: null,
@@ -186,16 +192,16 @@ export const exercises = [
 
 export const agendaList = [
   {
-    weekday: "Tuesday",
+    weekday: "Wednesday",
     sets: [
       {
         group: 2,
-        set: [
-          [1, 2, 3],
-          [4, 5],
-        ],
+        set: [[1], [4,5]],
       },
-      { group: 1, set: [[4, 6]] },
+      {
+        group: 1,
+        set: [[3,4,5,6,7]],
+      }
     ],
   },
 ];
