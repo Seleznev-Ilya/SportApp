@@ -12,7 +12,7 @@
     rgba(206, 202, 202, 0.925) 39%,
     rgba(248, 248, 248, 0.644) 95%
   );
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   h3 {
     margin: 15px 0 5px;
     background-color: black;
@@ -25,10 +25,25 @@
     margin: 10px 30px;
     .exercise {
       word-spacing: 2px;
-      line-height: 25px;
+      // line-height: 13px;
       list-style: none;
       font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
+      label {
+        vertical-align: middle;
+        line-height: 22px;
+        display: flex;
+        .exercise__checkbox {
+          display: inline-block;
+          align-self: center;
+          margin-right: 5px;
+        }
+        span {
+          display: inline-block;
+          padding-top: 3px;
+          align-self: center;
+        }
+      }
     }
   }
 }
