@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/SportApp/static/css/main.ad0efe8e.css",
-    "main.js": "/SportApp/static/js/main.b118de9d.js",
+    "main.js": "/SportApp/static/js/main.532e8141.js",
     "static/js/787.2aa76944.chunk.js": "/SportApp/static/js/787.2aa76944.chunk.js",
     "static/media/beton-card.jpeg": "/SportApp/static/media/beton-card.8b4ba3eb4cb19f153748.jpeg",
     "index.html": "/SportApp/index.html",
     "main.ad0efe8e.css.map": "/SportApp/static/css/main.ad0efe8e.css.map",
-    "main.b118de9d.js.map": "/SportApp/static/js/main.b118de9d.js.map",
+    "main.532e8141.js.map": "/SportApp/static/js/main.532e8141.js.map",
     "787.2aa76944.chunk.js.map": "/SportApp/static/js/787.2aa76944.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad0efe8e.css",
-    "static/js/main.b118de9d.js"
+    "static/js/main.532e8141.js"
   ]
 }
